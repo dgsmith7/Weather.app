@@ -7,7 +7,7 @@
     const bodyParser = require('body-parser');
     const app = express();const cors = require('cors');
     app.use(cors({
-        origin: 'https://localhost:8080'
+        origin: 'https://clownfish-app-6d3qc.ondigitalocean.app/'
     }));
     let port = 8080;
 //    app.set('views', path.join(__dirname, 'views'));
