@@ -3,8 +3,19 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "npm install",
     "start": "node ./bin/www"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgsmith7/Weather.app.git"
+  },
+  "author": "David Gail Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgsmith7/Weather.app/issues"
+  },
+  "homepage": "https://github.com/dgsmith7/Weather.app#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
