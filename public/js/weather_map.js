@@ -18,7 +18,7 @@
     let countries = new Map();
 
     function initMap() {
-        const url = 'http://localhost:8080';
+        const url = 'https://localhost:8080';
         const options = {
             method: 'POST',
             headers: {
@@ -64,7 +64,7 @@
     }
 
     function lookUpLatLongByZip(zip) {
-        const url = 'http://localhost:8080';
+        const url = 'https://localhost:8080';
         const options = {
             method: 'POST',
             headers: {
@@ -82,7 +82,7 @@
     }
 
     function getLocalWxData() {  // use ajax to get data from api
-        const url = 'http://localhost:8080';
+        const url = 'https://localhost:8080';
         const options = {
             method: 'POST',
             headers: {
@@ -100,7 +100,7 @@
     }
 
     function lookUpLocationNameByLatLon(/*lat, lon*/) {
-        const url = 'http://localhost:8080';
+        const url = 'https://localhost:8080';
         const options = {
             method: 'POST',
             headers: {
@@ -125,7 +125,7 @@
     }
 
     function getFiveDayData() {  // use ajax to get restaurant dat from file
-        const url = 'http://localhost:8080';
+        const url = 'https://localhost:8080';
         const options = {
             method: 'POST',
             headers: {
