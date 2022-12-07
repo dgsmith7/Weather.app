@@ -4,6 +4,10 @@
   "description": "A simple web app that demonstrates Bootstrap, JQuery, Ajax, among other things",
   "main": "index.js",
   "private": true,
+  "engines": {
+    "node": "18.x",
+    "npm": "~9.1.2"
+  },
   "scripts": {
     "build": "npm install",
     "start": "node ./bin/www"

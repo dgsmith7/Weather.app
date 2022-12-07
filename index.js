@@ -7,8 +7,8 @@
     const bodyParser = require('body-parser');
     const app = express();
     let port = 8000;
-    app.set('views', path.join(__dirname, 'views'));
-    app.set('view engine', 'jade');
+//    app.set('views', path.join(__dirname, 'views'));
+//    app.set('view engine', 'jade');
     app.use(express.json());
     app.use(express.static(path.join(__dirname, 'public')));
     app.use(bodyParser.json());
