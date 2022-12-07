@@ -1,6 +1,8 @@
 {
   "name": "weather-app",
   "version": "0.0.0",
+  "description": "A simple web app that demonstrates Bootstrap, JQuery, Ajax, among other things",
+  "main": "app.js",
   "private": true,
   "scripts": {
     "build": "npm install",
