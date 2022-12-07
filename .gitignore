@@ -1,0 +1,17 @@
+# MacOS
+.DS_Store
+
+# IntelliJ
+.idea/*
+*.iml
+/.idea/
+
+# Compiled output
+*.class
+out/*
+/out/
+
+# other
+/node_modules/
+.env
+

@@ -1,0 +1,104 @@
+/*
+color choices:
+https://nasa.github.io/nasawds-site/components/colors/
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    /*border: solid 1px steelblue;*/
+}
+
+body {
+    background-color: #8ba6ca;
+    color: #212121;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+div {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation { /*for div fade-in */
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.card {
+    background-color: #e4e2e0;
+}
+
+.card-body {
+    background-color: #e1f3f8;
+}
+
+.card-body li {
+    background-color: #e1f3f8;
+}
+
+.day-bg {
+    background: linear-gradient(to top, #92C0DC, #366DC3);
+}
+
+.mapboxgl-control-container {
+    height: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.night-bg {
+    background: linear-gradient(to top, #C8C8DC, #0A0A1E);
+}
+
+#banner-text {
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url("../images/wx-banner.jpg");
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+}
+
+#banner-weather {
+    max-height: 225px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    color: white;
+    font-size: 13em;
+}
+
+#banner-central {
+    max-height: 225px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    color: black;
+    font-size: 4.5em;
+    z-index: 1;
+}
+
+#current-banner, #forecast-banner {
+    color: #ffffff;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+}
+
+#screen {
+    color: black;
+    background-color: rgba(200, 200, 200, .25);
+    padding: 5px;
+    border-radius: 10px
+}

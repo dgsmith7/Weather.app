@@ -1,0 +1,106 @@
+[
+  {
+    "code": "01d",
+    "file": "sun-fill.svg"
+  },
+  {
+    "code": "01n",
+    "file": "moon-fill.svg"
+  },
+  {
+    "code": "02d",
+    "file": "cloud-sun-fill.svg"
+  },
+  {
+    "code": "02n",
+    "file": "cloud-moon-fill.svg"
+  },
+  {
+    "code": "03d",
+    "file": "cloudy-fill.svg"
+  },
+  {
+    "code": "03n",
+    "file": "cloudy-fill.svg"
+  },
+  {
+    "code": "04d",
+    "file": "clouds-fill.svg"
+  },
+  {
+    "code": "04n",
+    "file": "clouds-fill.svg"
+  },
+  {
+    "code": "09d",
+    "file": "cloud-rain-fill.svg"
+  },
+  {
+    "code": "09n",
+    "file": "cloud-rain-fill.svg"
+  },
+  {
+    "code": "10d",
+    "file": "cloud-rain-heavy-fill.svg"
+  },
+  {
+    "code": "10n",
+    "file": "cloud-rain-heavy-fill.svg"
+  },
+  {
+    "code": "11d",
+    "file": "cloud-lightning-rain-fill.svg"
+  },
+  {
+    "code": "11n",
+    "file": "cloud-lightning-rain-fill.svg"
+  },
+  {
+    "code": "13d",
+    "file": "snow.svg"
+  },
+  {
+    "code": "13n",
+    "file": "snow.svg"
+  },
+  {
+    "code": "50d",
+    "file": "cloud-haze-fill.svg"
+  },
+  {
+    "code": "50n",
+    "file": "cloud-haze-fill.svg"
+  },
+  {
+    "code": "First Quarter",
+    "file": "first-quarter.png"
+  },
+  {
+    "code": "Full Moon",
+    "file": "full.png"
+  },
+  {
+    "code": "Last Quarter",
+    "file": "last-quarter.png"
+  },
+  {
+    "code": "New Moon",
+    "file": "new.png"
+  },
+  {
+    "code": "Waxing Crescent",
+    "file": "waxing-crescent.png"
+  },
+  {
+    "code": "Waning Crescent",
+    "file": "waning-crescent.png"
+  },
+  {
+    "code": "Waxing Gibbous",
+    "file": "waxing-gibbous.png"
+  },
+  {
+    "code": "Waning Gibbous",
+    "file": "waning-gibbous.png"
+  }
+]
